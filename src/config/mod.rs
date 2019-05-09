@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use de::read::BincodeRead;
 use error::Result;
 use serde;

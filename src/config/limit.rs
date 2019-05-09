@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use error::{ErrorKind, Result};
 
 /// A trait for stopping serialization and deserialization when a certain limit has been reached.

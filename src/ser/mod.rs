@@ -105,6 +105,7 @@ impl<'a, W: Write, O: Options> serde::Serializer for &'a mut Serializer<W, O> {
         impl_serialize_int!{serialize_u128(u128) = serialize_u128()}
         impl_serialize_int!{serialize_i128(i128) = serialize_i128()}
     }
+    //}
 
     fn serialize_f32(self, v: f32) -> Result<()> {
         self.writer

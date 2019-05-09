@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use config::{BincodeByteOrder, Options};
 use std::io::Read;
 
