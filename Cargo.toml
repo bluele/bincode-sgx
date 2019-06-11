@@ -6,7 +6,7 @@ exclude = ["logo.png", "tests/*", "examples/*", ".gitignore", ".travis.yml", "/s
 
 publish =  true
 
-repository = "https://github.com/TyOverby/bincode"
+repository = "https://github.com/servo/bincode"
 documentation = "https://docs.rs/bincode"
 readme = "./readme.md"
 categories = ["encoding", "network-programming"]
@@ -38,4 +38,4 @@ default = ["mesalock_sgx"]
 mesalock_sgx = ["sgx_tstd"]
 
 [badges]
-travis-ci = { repository = "TyOverby/bincode" }
+travis-ci = { repository = "servo/bincode" }
